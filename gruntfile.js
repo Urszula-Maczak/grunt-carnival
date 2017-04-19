@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       			},
       			dist: {
         				files: {
-          						'css/main.css': 'sass/main.sass'
+          						'css/style.css': 'sass/style.sass'
         				}
       			}
     	},
@@ -35,8 +35,8 @@ module.exports = function(grunt) {
       },
       browserSync: {
                   bsFiles: {
-                          src : 'assets/css/*.css'
-                  },
+                          src : 'assets/css/*.css' //assets/css/*.css' - *jakikolwiek plik css szuka, kiedy jest określony 
+                  },                                   // kiedy jest określony 'assets/css/style.css - szuka wtedy konkretny plik css
                   options: {
                           server: {
                                 baseDir: "./"
