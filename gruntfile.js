@@ -35,7 +35,7 @@ module.exports = function(grunt) {
       },
       browserSync: {
                   bsFiles: {
-                          src : 'assets/css/*.css' //assets/css/*.css' - *jakikolwiek plik css szuka, kiedy jest określony 
+                          src : 'assets/css/*.css' //assets/css/*.css' - * - jakikolwiek plik css szuka ze zbioru wszystkich
                   },                                   // kiedy jest określony 'assets/css/style.css - szuka wtedy konkretny plik css
                   options: {
                           server: {
